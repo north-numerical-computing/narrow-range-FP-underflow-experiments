@@ -6,8 +6,7 @@
 % References:
 %   [1] T. Mary and M. Mikaitis.
 %       Error Analysis of Matrix Multiplication with Narrow Range
-%       Floating-Point Arithmetic. Tech. Report. In Prep.
-%       Aug. 2024.
+%       Floating-Point Arithmetic. hal-04671474. Aug. 2024.
 
 % Set up the input format.
 options_input.format = input_format;
