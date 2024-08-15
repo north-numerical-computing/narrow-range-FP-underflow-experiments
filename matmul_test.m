@@ -124,20 +124,6 @@ for subnormals_on = 0:1
         %bound_nrl(i) = 2*u + U;
     end
 
-    % Plot errors.
-    figure;
-    loglog(nlist,err,'-o');
-    hold on
-    loglog(nlist,bound,'--o');
-    loglog(nlist,err_nrl,'-*');
-    loglog(nlist,bound_nrl,'--*');
-    legend('Error', 'Bound', 'Error (infinite range)',...
-        'Bound (infinite range)','location','southwest');
-    title(strcat(input_format,...
-        '-', accum_format,...
-        ' subnormals: ', num2str(subnormals_on), 'words: ', num2str(p)));
-    hold off
-
     % Output various results to .dat files.
     filename = strcat('./data/matmul_test_', input_format,...
         '_', accum_format, '_subnormals',...
