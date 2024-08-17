@@ -1,10 +1,10 @@
 # MATLAB experiments with narrow-range floating-point formats
 This repository contains the data plotted in [Sec. 5, 1] and the MATLAB code used to generate it.
 
-The scripts rely on the [CPFloat](https://github.com/north-numerical-computing/cpfloat) library for implementing custom-precision arithmetics.
+The scripts rely on the [CPFloat](https://github.com/north-numerical-computing/cpfloat) library for implementing custom-precision arithmetic.
 
 The errors in [data](./data) were produced with MATLAB version R2024a Update 2 and the CPFloat version under the SHA [0ddba87dd19adf5da154e228b68f86e60051f102](https://github.com/north-numerical-computing/cpfloat/tree/0ddba87dd19adf5da154e228b68f86e60051f102).
-Run the script [experiments.m](./experiments.m) to regenerate the data files in [data](./data) or run the shell script [plot.sh](./plot.h) to regenerate the data files and plot the figures in [diagrams](./diagrams).
+Run the script [experiments.m](./experiments.m) to regenerate the data files in [data](./data) or run the shell script [plot.sh](./plot.sh) to regenerate the data files and plot the figures in [diagrams](./diagrams).
 
 ### References
 
