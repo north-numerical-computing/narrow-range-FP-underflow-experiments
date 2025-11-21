@@ -8,7 +8,7 @@ Run the script [experiments.m](./experiments.m) to regenerate the data files in 
 
 ### References
 
- [1] T. Mary and M. Mikaitis. [*Error Analysis of Matrix Multiplication with Narrow Range Floating-Point Arithmetic*](https://hal.science/hal-04671474). hal-04671474. Aug. 2024.
+ [1] T. Mary and M. Mikaitis. [*Error Analysis of Matrix Multiplication with Narrow Range Floating-Point Arithmetic*](https://epubs.siam.org/doi/10.1137/24M1685109). SIAM J. Sci. Comput., 47:4. Jul. 2025.
 
 ### License
 
